@@ -9,4 +9,3 @@ The requirements are:
   * You should be able to POST at the end point and create records. The payload for such a request should look like `'{"date": "2022-04-27 12:13", "sensor": "Main Bearing Temperature", "value": 12.0"}'`. You can assume that all values are floating point numbers.
   * You should support GET, POST and PATCH operations on the end point only.
   * You should be able to retrieve all records for a particular sensor at for e.g. `/api/data?sensor="Main+Bearing+Temperature"`
-# onyxinsight_interview
